@@ -1,9 +1,9 @@
 # List (لیست)
 
-### (Commend linux)[]
-### (Commend file bash)[https://github.com/athanatoi-vii/Linux-Command/edit/main/README.md#file-bash]
-### (Commend for bash in file)[]
-### (Additional Command)[]
+### [Commend linux](#linux-commend-(دستورات-لینوکس))
+### [Commend file bash](#file-bash-(bash-فایل)))
+### [Commend for bash in fil](#commend-for-bash-in-file-(bash-دستورات-درون-فایل))
+### [Additional Command](#Additional-Command-(دستورات-تکمیلی))
 
 ---
 
@@ -172,7 +172,7 @@ find -name `<name-file>`
 
 ---
 
-# file bash
+# file bash (bash فایل)
 There are executable files in which the commands written in them are executed in the terminal (فایل هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند)
 
 ### 1. Create file bash (bash ساخت فایل)
@@ -193,7 +193,7 @@ Run the bash file (bash اجرای فایل)
 
 ---
 
-# commend for bash in file
+# commend for bash in file (bash دستورات درون فایل)
 
 ### 1. Add Commentator (اضاف کردن مفسر)
 Add the bash interpreter to the file (به فایل bash اضافه کردن مفسر)
@@ -272,7 +272,7 @@ done while ((a < b));
 
 # Additional Command (دستورات تکمیلی)
 
-*❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)*
+**❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)**
 
 ### 1. Network
 Test network connections (تست اتصالات شبکه)
@@ -327,6 +327,4 @@ Permanent root access (دسترسی دایمی روت)
 ```ruby
 sudo su -
 ```
-
----
 
