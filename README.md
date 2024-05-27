@@ -257,7 +257,7 @@ done while ((a < b));
 ---
 # Additional command (دستورات تکمیلی)
 
-##❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)
+####❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)
 
 ### 1. network
 Test network connections (تست اتصالات شبکه)
