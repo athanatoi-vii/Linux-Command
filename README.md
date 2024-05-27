@@ -6,17 +6,17 @@ Display the list of folders and files (نمایش لیست پوشه و فایل 
 ls
 ```
 
-```ls -t``` Display based on file and folder creation time (نمایش بر اساس زمان ایجاد فایل و پوشه)
+*```ls -t``` Display based on file and folder creation time (نمایش بر اساس زمان ایجاد فایل و پوشه)
 
-```ls -a``` Show file and directory with more information (نمایش تمام پوشه و فایل های مخفی و قابل نمایش)
+*```ls -a``` Show file and directory with more information (نمایش تمام پوشه و فایل های مخفی و قابل نمایش)
 
-```ls -l``` Show file and directory with more information (نمایش فایل و دایرکتوری با اطلاعات بیشتر)
+*```ls -l``` Show file and directory with more information (نمایش فایل و دایرکتوری با اطلاعات بیشتر)
 
-```ls -l -t -a ``` Sequential use (استفاده ترتیبی)
+*```ls -l -t -a ``` Sequential use (استفاده ترتیبی)
 
-```ls -lta``` Combined use (استفاده ترکیبی)
+*```ls -lta``` Combined use (استفاده ترکیبی)
 
-```ls -s``` Display files and folders next to their size (نمایش فایل و پوشه ها در کنار حجم انها)
+*```ls -s``` Display files and folders next to their size (نمایش فایل و پوشه ها در کنار حجم انها)
 
 ---
 ### 2. cd
@@ -186,7 +186,7 @@ Add the bash interpreter to the file (به فایل bash اضافه کردن م�
 ```ruby
 !/bin/bash
 ```
-❗Note: It is required in some versions of Linux (در برخی از نسخه های لینچکس لازم می باشد)
+*❗Note: It is required in some versions of Linux (در برخی از نسخه های لینچکس لازم می باشد)*
 
 ---
 ### 21. if
@@ -252,13 +252,12 @@ do
 done while ((a < b));
 ```
 
-❗Note: Then, the body of the condition is checked once (بعد یک بار اجرای بدنه شرط چک میشه)
+*❗Note: Then, the body of the condition is checked once (بعد یک بار اجرای بدنه شرط چک میشه)*
 
 ---
 # Additional command (دستورات تکمیلی)
 
 *❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)*
-`<u>زیرخط دار</u>`
 
 ### 1. network
 Test network connections (تست اتصالات شبکه)
