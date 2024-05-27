@@ -1,7 +1,7 @@
 # List (لیست)
 
 ### [Commend linux](#linux-commend-(دستورات-لینوکس))
-### [Commend file bash](#file-bash-(bash-فایل)))
+### [Commend file bash](#file-bash-(bash-فایل))
 ### [Commend for bash in fil](#commend-for-bash-in-file-(bash-دستورات-درون-فایل))
 ### [Additional Command](#Additional-Command-(دستورات-تکمیلی))
 
