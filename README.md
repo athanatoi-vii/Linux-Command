@@ -30,7 +30,7 @@ Back to the previous folder (برگشت به پوشه قبلی)
 cd ..
 ```
 
-```cd name-directory/name-directory``` Slash for addressing and spacing between folders (اسلش برای ادرس دهی و فاصله انداختن بین پوشه ها)
+* ```cd name-directory/name-directory``` Slash for addressing and spacing between folders (اسلش برای ادرس دهی و فاصله انداختن بین پوشه ها)
 
 ---
 ### 3. clear
@@ -39,7 +39,7 @@ Clear the terminal (پاک کردن ترمینال)
 clear
 ```
 
-```ctrl``` + ```l``` Hiding data in the terminal (مخفی کردن داده ها در ترمینال)
+* ```ctrl``` + ```l``` Hiding data in the terminal (مخفی کردن داده ها در ترمینال)
 
 ---
 ### 4. exit
@@ -55,7 +55,7 @@ Create a folder (ساخت پوشه)
 mkdir <name-directory>
 ```
 
-```mkdir <name-directory> <name-directory>``` Create multiple folders (ساخت چند پوشه)
+* ```mkdir <name-directory> <name-directory>``` Create multiple folders (ساخت چند پوشه)
 
 ---
 ### 6. touch
@@ -78,9 +78,9 @@ Open the file in the terminal editor (باز کردن فایل در ادیتور
 nano <name-file>
 ```
 
-```ctrl``` + ```o``` Save changes (سیو تغیرات)
+* ```ctrl``` + ```o``` Save changes (سیو تغیرات)
 
-```ctrl``` + ```x``` Exit the editor (خروج از ادیتور)
+* ```ctrl``` + ```x``` Exit the editor (خروج از ادیتور)
 
 ---
 ### 9. pwd
