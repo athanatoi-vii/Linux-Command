@@ -27,7 +27,7 @@ Back to the previous folder (برگشت به پوشه قبلی)
 cd ..
 ```
 
-```cd name-directory/name-directory``` Slash for addressing and spacing between folders (اسلش برای ادرس دهی و فاصله ان اختن بین پوشه ها)
+```cd name-directory/name-directory``` Slash for addressing and spacing between folders (اسلش برای ادرس دهی و فاصله انداختن بین پوشه ها)
 
 ---
 ### 3. clear
@@ -76,6 +76,7 @@ nano <name-file>
 ```
 
 ```ctrl``` + ```o``` Save changes (سیو تغیرات)
+
 ```ctrl``` + ```x``` Exit the editor (خروج از ادیتور)
 
 ---
