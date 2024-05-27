@@ -1,3 +1,12 @@
+# List (لیست)
+
+### (Commend linux)[]
+### (Commend file bash)[https://github.com/athanatoi-vii/Linux-Command/edit/main/README.md#file-bash]
+### (Commend for bash in file)[]
+### (Additional Command)[]
+
+---
+
 # linux commend (دستورات لینوکس)
 
 ### 1. ls
@@ -162,7 +171,6 @@ find -name `<name-file>`
 ```
 
 ---
----
 
 # file bash
 There are executable files in which the commands written in them are executed in the terminal (فایل هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند)
@@ -183,7 +191,6 @@ Run the bash file (bash اجرای فایل)
 ./<file-name>.sh
 ```
 
----
 ---
 
 # commend for bash in file
@@ -262,9 +269,8 @@ done while ((a < b));
 *❗Note: Then, the body of the condition is checked once (بعد یک بار اجرای بدنه شرط چک میشه)*
 
 ---
----
 
-# Additional command (دستورات تکمیلی)
+# Additional Command (دستورات تکمیلی)
 
 *❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)*
 
@@ -324,4 +330,3 @@ sudo su -
 
 ---
 
-===
