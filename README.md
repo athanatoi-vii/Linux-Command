@@ -1,190 +1,184 @@
 # linux commend (دستورات لینوکس)
-### 1.ls
+### 1. ls
 Display the list of folders and files (نمایش لیست پوشه و فایل ها)
 ```ruby
 ls
 ```
 
-نمایش بر اساس زمان ایجاد فایل و پوشه.
-```ls -t```
-نمایش تمام پوشه و فایل های مخفی و قابل نمایش.
-```ls -a```
-نمایش فایل و دایرکتوری با اطلاعات بیشتر.
-```ls -l```
-استفاده ترکیبی.
-```ls -l -t -a ```
-استفاده ترتیبی.
-```ls -lta```
+```ls -t``` Display based on file and folder creation time (نمایش بر اساس زمان ایجاد فایل و پوشه)
+```ls -a``` Show file and directory with more information (نمایش تمام پوشه و فایل های مخفی و قابل نمایش)
+```ls -l``` Show file and directory with more information (نمایش فایل و دایرکتوری با اطلاعات بیشتر)
+```ls -l -t -a ``` Combined use (استفاده ترکیبی)
+```ls -lta``` Combined use (استفاده ترکیبی)
 
 ---
-### cd
-رفتن به لوکیشن مورد نظر در ترمینال.
-```
+### 2. cd
+Go to the desired location in the terminal (رفتن به لوکیشن مورد نظر در ترمینال)
+```ruby
 cd <name location switch>
 ```
-اسلش برای ادرس دهی و فاصله ان اختن بین پوشه ها
-```cd name-directory/name-directory```
-برگشت به پوشه قبلی.
-```
+
+Back to the previous folder (برگشت به پوشه قبلی)
+```ruby
 cd ..
 ```
 
----
-#### clear
-پاک کردن ترمینال.
-```
-clear
-```
-مخفی کردن داده ها در ترمینال.
-```ctrl``` + ```l```
+```cd name-directory/name-directory``` Slash for addressing and spacing between folders (اسلش برای ادرس دهی و فاصله ان اختن بین پوشه ها)
 
 ---
-#### exit
-خروج از ترمینال.
+### 3. clear
+Clear the terminal (پاک کردن ترمینال)
+```ruby
+clear
 ```
+
+```ctrl``` + ```l``` Hiding data in the terminal (مخفی کردن داده ها در ترمینال)
+
+---
+### 4. exit
+Rouge from the terminal (خروج از ترمینال)
+```ruby
 exit
 ```
 
 ---
-#### mkdir
-ساخت پوشه.
-```
+### 5. mkdir
+Create a folder (ساخت پوشه)
+```ruby
 mkdir <name-directory>
 ```
-ساخت چند پوشه.
-```mkdir <name-directory> <name-directory>```
+
+```mkdir <name-directory> <name-directory>``` Create multiple folders (ساخت چند پوشه)
 
 ---
-#### touch
-ساخت فایل.
-```
+### 6. touch
+Create file (ساخت فایل)
+```ruby
 touch <name-file>
 ```
 
 ---
-#### cat
-چاپ تمام داده های یک فایل در ترمینال.
-```
+### 7.  cat
+Print all the data of a file in the terminal (چاپ تمام داده های یک فایل در ترمینال)
+```ruby
 cat <name-file>
 ```
 
 ---
-#### nano
-باز کردن فایل در ادیتور ترمینال.
-```
+### 8. nano
+Open the file in the terminal editor (باز کردن فایل در ادیتور ترمینال)
+```ruby
 nano <name-file>
 ```
 
-سیو تغیرات.
-```ctrl``` + ```o```
-خروج از ادیتور.
-```ctrl``` + ```x```
+```ctrl``` + ```o``` Save changes (سیو تغیرات)
+```ctrl``` + ```x``` Exit the editor (خروج از ادیتور)
 
 ---
-#### pwd
-نمایش لوکیشن ما در ترمینال.
-```
+### 9. pwd
+Show our location in the terminal (نمایش لوکیشن ما در ترمینال)
+```ruby
 pwd
 ```
 
 ---
-#### rm
-حذف فایل.
-```
+### 11. rm
+Delete the file (حذف فایل)
+```ruby
 rm <name-file>
 ```
-حذف پوشه خالی.
-```
+
+Delete the empty folder (حذف پوشه خالی)
+```ruby
 mkdir <name-directory>
 ```
-حذف پوشه پر و خالی.
-```
+
+Delete full and empty folder (حذف پوشه پر و خالی)
+```ruby
 rm -r <name-directort>
 ```
 
 ---
-#### ln
-لینک یه فایل به یک فایل جدید ایجاد شده به نام دلخواه.
-```
+### 12. ln
+Link a file to a new file created with the desired name (لینک یه فایل به یک فایل جدید ایجاد شده به نام دلخواه)
+```ruby
 ln <name-file> <name-file>
 ```
 
 ---
-#### man
-ننایش اطلاعات دستورات لینوکس.
-```
+### 13. man
+Display information about Linux commands (ننایش اطلاعات دستورات لینوکس)
+```ruby
 man ls
 ```
-```
+```ruby
 man cd
 ```
-```
+```ruby
 man man
 ```
 
 ---
-#### cp
-کپی یک فایل از یک لوکیشن به یک لوکیشن دیگر.
-```
+#### 14. cp
+Copy a file from one location to another location (کپی یک فایل از یک لوکیشن به یک لوکیشن دیگر)
+```ruby
 cp <location-file>/<name-file> <location-file>
 ```
 
 ---
-#### mv
-انتقال فایل به لوکیشن دیگر.
-```
+### 15. mv
+Transfer the file to another location (انتقال فایل به لوکیشن دیگر)
+```ruby
 cp <location-file>/<name-file> <location-file>
 ```
 
 ---
-#### locate
-نمتیش لوکیشن یک فایل.
-```
+### 16. locate
+Show the location of a file (نمایش لوکیشن یک فایل)
+```ruby
 locate <name-file>
 ```
 
 ---
-#### history
-نمایش هیستوری کامند های استفاده شده.
-```
+### 17. history
+Display the history of used commands (نمایش هیستوری کامند های استفاده شده)
+```ruby
 history
 ```
 
 ---
-#### find
-پیدا کردن فایل در هر مکانی از حافظه.
-```
+### 18. find
+Find files anywhere in memory (پیدا کردن فایل در هر مکانی از حافظه)
+```ruby
 find -name `<name-file>`
 ```
 
 ---
-#### file bash
-فایا هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند.
-ساخت فایل bash با پسوند .sh در ترمینال.
-```
+### 19. file bash
+There are executable files in which the commands written in them are executed in the terminal (فایل هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند)
+
+Create bash file with .sh extension in terminal (در ترمینال .sh با پسوند bash ساخت فایل )
+```ruby
 touch <name-file>.sh
 ```
-دسترسی به فایل bash برای اجرا.
-```
+
+Access the bash file to run (برای اجرا bssh دسترسی به فایل)
+```ruby
 sudo chmod +x <file-name>.sh
 ```
-اجرای فایل bash.
-```
+
+Run the bash file (bash اجرای فایل)
+```ruby
 ./<file-name>.sh
 ```
 
 ---
-#### commend for bash in file
-اضافه کردن مفسر bash به فایل.
-```
+### 20. commend for bash in file
+Add the bash interpreter to the file (به فایل bash اضافه کردن مفسر)
+```ruby
 !/bin/bash
 ```
-نکته: در برخی از نسخه های لینچکس لازم می باشد.
+❗Note: It is required in some versions of Linux (در برخی از نسخه های لینچکس لازم می باشد)
 
 ---
-
-
-
-
-
 
