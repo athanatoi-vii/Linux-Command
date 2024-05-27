@@ -191,14 +191,14 @@ Add the bash interpreter to the file (به فایل bash اضافه کردن م�
 ---
 ### 21. if
 The order to execute the servant if the condition is correct (دستور اجرای بنده در صورت درستی شرط)
-```
+```ruby
 if ((<name-variable1> <control-character> <name-variable2>));then
   <body-commands>
 fi
 ```
 
 Example (مثال)
-```
+```ruby
 if ((a < b));then
   echo "$b"
 fi
@@ -207,14 +207,14 @@ fi
 ---
 ### 21. for
 I repeat it a certain number of times (تکرار بنده به تعداد مشخص)
-```
+```ruby
 for ((<name-variable1>; <name-variable1> <control-character> <name-variable2>; <name-variable1>++));do
   <body-commands>
 done
 ```
 
 Example (مثال)
-```
+```ruby
 for ((a=0; a < b; a++));do
   echo "$a"
 done
@@ -223,14 +223,14 @@ done
 ---
 ### 21. while
 I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
-```
+```ruby
 while ((<name-variable1> <control-character> <name-variable2>));do
   <body-commands>
 done
 ```
 
 Example (مثال)
-```
+```ruby
 while ((a < b));do
   echo "$a"
 done
@@ -239,14 +239,14 @@ done
 ---
 ### 21. do while
 I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
-```
+```ruby
 do
   <body-commands>
 done while ((<name-variable1> <control-character> <name-variable2>));
 ```
 
 Example (مثال)
-```
+```ruby
 do
   echo "$a"
 done while ((a < b));
@@ -256,23 +256,24 @@ done while ((a < b));
 
 ---
 # Additional command (دستورات تکمیلی)
+
 ##❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)
 
 ### 1. network
 Test network connections (تست اتصالات شبکه)
-```
+```ruby
 ifconfig
 ```
 
 Ping test DNS (DNS تست پینگ)
-```
+```ruby
 ping <DNS>
 ```
 
 ---
 ### 2. Root
 Permanent root access (دسترسی دایمی روت)
-```
+```ruby
 sudo su -
 ```
 
