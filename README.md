@@ -1,9 +1,7 @@
-# linux commend
-# دستورات لینوکس
-### ls
-Display the list of folders and files.
-نمایش لیست پوشه و فایل ها.
-```
+# linux commend (دستورات لینوکس)
+### 1.ls
+Display the list of folders and files (نمایش لیست پوشه و فایل ها)
+```ruby
 ls
 ```
 
