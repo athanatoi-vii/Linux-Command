@@ -1,4 +1,5 @@
 # linux commend (دستورات لینوکس)
+
 ### 1. ls
 Display the list of folders and files (نمایش لیست پوشه و فایل ها)
 ```ruby
@@ -14,6 +15,8 @@ ls
 ```ls -l -t -a ``` Sequential use (استفاده ترتیبی)
 
 ```ls -lta``` Combined use (استفاده ترکیبی)
+
+```ls -s``` Display files and folders next to their size (نمایش فایل و پوشه ها در کنار حجم انها)
 
 ---
 ### 2. cd
@@ -184,6 +187,94 @@ Add the bash interpreter to the file (به فایل bash اضافه کردن م�
 !/bin/bash
 ```
 ❗Note: It is required in some versions of Linux (در برخی از نسخه های لینچکس لازم می باشد)
+
+---
+### 21. if
+The order to execute the servant if the condition is correct (دستور اجرای بنده در صورت درستی شرط)
+```
+if ((<name-variable1> <control-character> <name-variable2>));then
+  <body-commands>
+fi
+```
+
+Example (مثال)
+```
+if ((a < b));then
+  echo "$b"
+fi
+```
+
+---
+### 21. for
+I repeat it a certain number of times (تکرار بنده به تعداد مشخص)
+```
+for ((<name-variable1>; <name-variable1> <control-character> <name-variable2>; <name-variable1>++));do
+  <body-commands>
+done
+```
+
+Example (مثال)
+```
+for ((a=0; a < b; a++));do
+  echo "$a"
+done
+```
+
+---
+### 21. while
+I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
+```
+while ((<name-variable1> <control-character> <name-variable2>));do
+  <body-commands>
+done
+```
+
+Example (مثال)
+```
+while ((a < b));do
+  echo "$a"
+done
+```
+
+---
+### 21. do while
+I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
+```
+do
+  <body-commands>
+done while ((<name-variable1> <control-character> <name-variable2>));
+```
+
+Example (مثال)
+```
+do
+  echo "$a"
+done while ((a < b));
+```
+
+❗Note: Then, the body of the condition is checked once (بعد یک بار اجرای بدنه شرط چک میشه)
+
+---
+# Additional command (دستورات تکمیلی)
+##❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)
+
+### 1. network
+Test network connections (تست اتصالات شبکه)
+```
+ifconfig
+```
+
+Ping test DNS (DNS تست پینگ)
+```
+ping <DNS>
+```
+
+---
+### 2. Root
+Permanent root access (دسترسی دایمی روت)
+```
+sudo su -
+```
 
 ---
 
