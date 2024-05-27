@@ -162,9 +162,12 @@ find -name `<name-file>`
 ```
 
 ---
-### 19. file bash
+---
+
+# file bash
 There are executable files in which the commands written in them are executed in the terminal (فایل هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند)
 
+### 1. Create file bash (bash ساخت فایل)
 Create bash file with .sh extension in terminal (در ترمینال .sh با پسوند bash ساخت فایل )
 ```ruby
 touch <name-file>.sh
@@ -181,7 +184,11 @@ Run the bash file (bash اجرای فایل)
 ```
 
 ---
-### 20. commend for bash in file
+---
+
+# commend for bash in file
+
+### 1. Add Commentator (اضاف کردن مفسر)
 Add the bash interpreter to the file (به فایل bash اضافه کردن مفسر)
 ```ruby
 !/bin/bash
@@ -255,11 +262,13 @@ done while ((a < b));
 *❗Note: Then, the body of the condition is checked once (بعد یک بار اجرای بدنه شرط چک میشه)*
 
 ---
+---
+
 # Additional command (دستورات تکمیلی)
 
 *❗Note: Unnecessary for learning (غیر ضروری جهت یادگیری)*
 
-### 1. network
+### 1. Network
 Test network connections (تست اتصالات شبکه)
 ```ruby
 ifconfig
@@ -268,6 +277,42 @@ ifconfig
 Ping test DNS (DNS تست پینگ)
 ```ruby
 ping <DNS>
+```
+
+---
+### 2. Update (اپدیت)
+Ubuntu (اوبنتو)
+```
+sudo apt update
+```
+
+Fedora (فدورا)
+```
+sudo def update
+```
+
+---
+### 2. upgrade (اپگرید)
+Ubuntu (اوبنتو)
+```
+sudo apt-get upgrade
+```
+
+Fedora (فدورا)
+```
+sudo def upgrade
+```
+
+---
+### 3. Install app
+Ubuntu (اوبنتو)
+```
+sudo apt-get install <Package-name>
+```
+
+Fedora (فدورا)
+```
+sudo def install <Package-name>
 ```
 
 ---
