@@ -6,9 +6,13 @@ ls
 ```
 
 ```ls -t``` Display based on file and folder creation time (نمایش بر اساس زمان ایجاد فایل و پوشه)
+
 ```ls -a``` Show file and directory with more information (نمایش تمام پوشه و فایل های مخفی و قابل نمایش)
+
 ```ls -l``` Show file and directory with more information (نمایش فایل و دایرکتوری با اطلاعات بیشتر)
-```ls -l -t -a ``` Combined use (استفاده ترکیبی)
+
+```ls -l -t -a ``` Sequential use (استفاده ترتیبی)
+
 ```ls -lta``` Combined use (استفاده ترکیبی)
 
 ---
