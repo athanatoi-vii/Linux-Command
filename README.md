@@ -1,6 +1,7 @@
-## linux commend
----
-#### ls
+# linux commend
+# دستورات لینوکس
+### ls
+Display the list of folders and files.
 نمایش لیست پوشه و فایل ها.
 ```
 ls
@@ -18,7 +19,7 @@ ls
 ```ls -lta```
 
 ---
-#### cd
+### cd
 رفتن به لوکیشن مورد نظر در ترمینال.
 ```
 cd <name location switch>
