@@ -35,6 +35,7 @@
 8. for
 9. while
 10. do wihile
+11. read
 ### [Additional Command](#Additional-Command-دستورات-تکمیلی)
 1. Network (شبکه)
 2. update (اپدیت)
@@ -420,6 +421,18 @@ done while ((a < b));
 ```
 
 *❗Note: Then, the body of the condition is checked once (بعد یک بار اجرای بدنه شرط چک میشه)*
+
+---
+### 11. read
+Reading an input from the user (خواندن یک ورودی از کاربر)
+```ruby
+read  <name-variable>
+```
+
+Example (مثال)
+```ruby
+read a
+```
 
 ---
 
