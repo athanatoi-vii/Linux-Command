@@ -26,23 +26,22 @@
 1. Create file bash (bash ساخت فایل)
 ### [Commend for bash in fil](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
 1. Add Commentator (اضاف کردن مفسر)
-2. v
-3. v
-4. v
-5. v
-6. v
-7. v
-8. if
-9. for
-10. while
-11. do wihile
+2. Create variable (ایجاد متغیر)
+3. Variable value (مقدار متغیر)
+4. Print text (چاپ متن)
+5. mathematical operations (عملیات ریاضی)
+6. Different data type (نوع داده ای متفاوت)
+7. if
+8. for
+9. while
+10. do wihile
 ### [Additional Command](#Additional-Command-دستورات-تکمیلی)
-1. Network
-2. update
-3. upgrad
-4. install app
-5. uninstall app
-6. root
+1. Network (شبکه)
+2. update (اپدیت)
+3. upgrad (اپگرید)
+4. install app (نصب برنامه)
+5. uninstall app (حذف برنامه)
+6. root (ریشه)
 
 ---
 
@@ -297,10 +296,68 @@ Add the bash interpreter to the file (به فایل bash اضافه کردن م�
 *❗Note: It is required in some versions of Linux (در برخی از نسخه های لینچکس لازم می باشد)*
 
 ---
+### 3. Create variable (ایجاد متغیر)
+Define a new variable to the interpreter (تعریف یه متغیر جدید به مفسر)
+```ruby
+<variable-name>=<amount-of>
+```
 
+Example (مثال)
+```ruby
+a=1
+```
+
+Example (مثال)
+```ruby
+a="hello"
+```
 
 ---
-### 2. if
+### 3. Variable value (مقدار متغیر)
+Using value stored in variables (استفاده از مقدار ذخیره شده در متغیر ها)
+```ruby
+"$<variable-name>"
+```
+
+Example (مثال)
+```ruby
+echo "$a"
+```
+
+---
+### 4. Print text (چاپ متن)
+```ruby
+echo "<my-staring>"
+```
+
+---
+### 5. mathematical operations (عملیات ریاضی)
+Using mathematical operations on variables of the same data type (استفاده از عملیات ریاضی بر روی متغیر های از نوع داده ای یکسان)
+```ruby
+$((<variable-name> <operator> <variable-name>))
+```
+
+Example (مثال)
+```ruby
+sum=$((a+b))
+```
+
+---
+### 6. Different data type (نوع داده ای متفاوت)
+Printing two variables of different data types next to each other (چاپ کنار یک دیگر دو متغیر از نوع داده ای متفاوت)
+```ruby
+"$<variable-name> $<variable-name>"
+```
+
+Example (مثال)
+```ruby
+echo "sum= $a $b"
+```
+
+*❗Note: Variables A and B are not of the same data type (از یک نوع نیستند b و a متغیر)*
+
+---
+### 7. if
 The order to execute the servant if the condition is correct (دستور اجرای بنده در صورت درستی شرط)
 ```ruby
 if ((<name-variable1> <control-character> <name-variable2>));then
@@ -316,7 +373,7 @@ fi
 ```
 
 ---
-### 3. for
+### 8. for
 I repeat it a certain number of times (تکرار بنده به تعداد مشخص)
 ```ruby
 for ((<name-variable1>; <name-variable1> <control-character> <name-variable2>; <name-variable1>++));do
@@ -332,7 +389,7 @@ done
 ```
 
 ---
-### 4. while
+### 9. while
 I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
 ```ruby
 while ((<name-variable1> <control-character> <name-variable2>));do
@@ -348,7 +405,7 @@ done
 ```
 
 ---
-### 5. do while
+### 10. do while
 I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
 ```ruby
 do
@@ -385,53 +442,53 @@ ping <DNS>
 ---
 ### 2. Update (اپدیت)
 Ubuntu (اوبنتو)
-```
+```ruby
 sudo apt update
 ```
 
 Fedora (فدورا)
-```
+```ruby
 sudo def update
 ```
 
 ---
 ### 3. upgrade (اپگرید)
 Ubuntu (اوبنتو)
-```
+```ruby
 sudo apt-get upgrade
 ```
 
 Fedora (فدورا)
-```
+```ruby
 sudo def upgrade
 ```
 
 ---
-### 4. Install app
+### 4. Install app (نصب برنامه)
 Ubuntu (اوبنتو)
-```
+```ruby
 sudo apt-get install <Package-name>
 ```
 
 Fedora (فدورا)
-```
+```ruby
 sudo def install <Package-name>
 ```
 
 ---
-### 5. Uninstall app
+### 5. Uninstall app (حذف برنامه)
 Ubuntu (اوبنتو)
-```
+```ruby
 sudo apt-get remove <Package-name>
 ```
 
 Fedora (فدورا)
-```
+```ruby
 sudo def remove <Package-name>
 ```
 
 ---
-### 6. Root
+### 6. Root (ریشه)
 Permanent root access (دسترسی دایمی روت)
 ```ruby
 sudo su -
