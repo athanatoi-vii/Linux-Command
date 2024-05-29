@@ -174,7 +174,7 @@ find -name `<name-file>`
 ### 19. tree
 Filter a type of file with a specific extension or name pattern (فیلتر کردن نوعی از فایل با پسوند یا الگوی خاصی از نام)
 ```ruby
-tree -option *.<file-extension> | <Special-pattern>*
+tree -option *.<file-extension> | <special-pattern>*
 ```
 
 * ```-p``` Find the desired files (پیدا کردن فایل های مورد نظر)
