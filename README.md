@@ -171,6 +171,17 @@ find -name `<name-file>`
 ```
 
 ---
+### 19. tree
+Filter a type of file with a specific extension or name pattern (فیلتر کردن نوعی از فایل با پسوند یا الگوی خاصی از نام)
+```ruby
+tree -option *.<file-extension> | <Special-pattern>*
+```
+
+* ```-p``` Find the desired files (پیدا کردن فایل های مورد نظر)
+
+* ```-l``` Ignore the desired files (نادیده گرفتن فایل های مورد نظر)
+
+---
 
 # file bash (bash فایل)
 There are executable files in which the commands written in them are executed in the terminal (فایل هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند)
