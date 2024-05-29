@@ -185,7 +185,7 @@ man man
 ```
 
 ---
-#### 14. cp
+### 14. cp
 Copy a file from one location to another location (کپی یک فایل از یک لوکیشن به یک لوکیشن دیگر)
 ```ruby
 cp <location-file>/<name-file> <location-file>
@@ -228,24 +228,22 @@ tree
 
 ---
 ### 20. grap
-Find files with a specific pattern of extension or name and find a sentence in a file or in all files in a directory (پیدا کردن فایل با الگوی خاص پسوند یا نام و پیدا کردن یک جمله در یک فایل یا در تمام فایل های دایرکتوری)
-
-A specific extension pattern (الگوی خاص پسوند)
+Find a file with a specific file extension (پیدا کردن فایل با الوگی خاص پسوند)
 ```ruby
 grap -option *.<file-extension>
 ```
 
-Special name pattern (الگوی خاص نام)
+Find a file with a specific name (پیدا کردن فایل با الوگی خاص نام)
 ```ruby
 grap -option <special-pattern>*
 ```
 
-A text in all files in the directory (یک متن در تمام فایل های دایرکتوری)
+Find a text in all files in a directory (پیدا کردن یک متن در تمام فایل های یک پوشه)
 ```ruby
 grap -option <my-string>*
 ```
 
-One text in one file (یک متن در یک فایل)
+Find a text in a file (پیدا کردن یک متن در یک فایل)
 ```ruby
 grap -option <my-string> <name-file>
 ```
@@ -326,6 +324,7 @@ echo "$a"
 
 ---
 ### 4. Print text (چاپ متن)
+Text printing for better communication with the user (چاپ متن برای ارتباط بهتر با کاربر)
 ```ruby
 echo "<my-staring>"
 ```
