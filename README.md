@@ -1,9 +1,48 @@
 # List (لیست)
 
 ### [Commend linux](#linux-commend-دستورات-لینوکس)
+1. ls
+2. cd
+3. clear
+4. exit
+5. mkdir
+6. touch
+7. cat
+8. nano
+9. echo
+10. pwd
+11. rm
+12. ln
+13. man
+14. cp
+15. mv
+16. locate
+17. history
+18. find
+19. tree
+20. grap
+21. awk
 ### [Commend file bash](#file-bash-bash-فایل)
+1. Create file bash (bash ساخت فایل)
 ### [Commend for bash in fil](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
+1. Add Commentator (اضاف کردن مفسر)
+2. v
+3. v
+4. v
+5. v
+6. v
+7. v
+8. if
+9. for
+10. while
+11. do wihile
 ### [Additional Command](#Additional-Command-دستورات-تکمیلی)
+1. Network
+2. update
+3. upgrad
+4. install app
+5. uninstall app
+6. root
 
 ---
 
@@ -92,7 +131,18 @@ nano <name-file>
 * ```ctrl``` + ```x``` Exit the editor (خروج از ادیتور)
 
 ---
-### 9. pwd
+### 9. echo
+Print the given text to the terminal or a text file (چاپ متن داده شده در ترمینال یا یک فایل متنی)
+```ruby
+echo <my-text>
+```
+
+```ruby
+echo <my-text> > <file-name>
+```
+
+---
+### 10. pwd
 Show our location in the terminal (نمایش لوکیشن ما در ترمینال)
 ```ruby
 pwd
@@ -172,14 +222,47 @@ find -name `<name-file>`
 
 ---
 ### 19. tree
-Filter a type of file with a specific extension or name pattern (فیلتر کردن نوعی از فایل با پسوند یا الگوی خاصی از نام)
+File and directory tree display (نمایش درختی فایل و پوشه ها)
 ```ruby
-tree -option *.<file-extension> | <special-pattern>*
+tree
 ```
 
-* ```-p``` Find the desired files (پیدا کردن فایل های مورد نظر)
+---
+### 20. grap
+Find files with a specific pattern of extension or name and find a sentence in a file or in all files in a directory (پیدا کردن فایل با الگوی خاص پسوند یا نام و پیدا کردن یک جمله در یک فایل یا در تمام فایل های دایرکتوری)
 
-* ```-l``` Ignore the desired files (نادیده گرفتن فایل های مورد نظر)
+A specific extension pattern (الگوی خاص پسوند)
+```ruby
+grap -option *.<file-extension>
+```
+
+Special name pattern (الگوی خاص نام)
+```ruby
+grap -option <special-pattern>*
+```
+
+A text in all files in the directory (یک متن در تمام فایل های دایرکتوری)
+```ruby
+grap -option <my-string>*
+```
+
+One text in one file (یک متن در یک فایل)
+```ruby
+grap -option <my-string> <name-file>
+```
+
+* ```-i``` Case insensitive (غیر حساس به حروف کوچک و بزرگ)
+
+* ```-c``` The number of matches (تعداد تطابق)
+
+*❗Control character is not mandatory (وجود کارکتر کنترلی اجباری نیست)*
+
+---
+### 21. awk
+Processing the text file, including the execution of the command written in the named file (پردازش فایل متنی، از جمله اجرای دستور نوشته شده در فایل نامگذاری شده)
+```ruby
+awk '{ <command> }' <filename>
+```
 
 ---
 
@@ -214,7 +297,10 @@ Add the bash interpreter to the file (به فایل bash اضافه کردن م�
 *❗Note: It is required in some versions of Linux (در برخی از نسخه های لینچکس لازم می باشد)*
 
 ---
-### 21. if
+
+
+---
+### 2. if
 The order to execute the servant if the condition is correct (دستور اجرای بنده در صورت درستی شرط)
 ```ruby
 if ((<name-variable1> <control-character> <name-variable2>));then
@@ -230,7 +316,7 @@ fi
 ```
 
 ---
-### 21. for
+### 3. for
 I repeat it a certain number of times (تکرار بنده به تعداد مشخص)
 ```ruby
 for ((<name-variable1>; <name-variable1> <control-character> <name-variable2>; <name-variable1>++));do
@@ -246,7 +332,7 @@ done
 ```
 
 ---
-### 21. while
+### 4. while
 I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
 ```ruby
 while ((<name-variable1> <control-character> <name-variable2>));do
@@ -262,7 +348,7 @@ done
 ```
 
 ---
-### 21. do while
+### 5. do while
 I repeat until the condition is established (تکرار بنده تا زمان برقراری شرط)
 ```ruby
 do
@@ -309,7 +395,7 @@ sudo def update
 ```
 
 ---
-### 2. upgrade (اپگرید)
+### 3. upgrade (اپگرید)
 Ubuntu (اوبنتو)
 ```
 sudo apt-get upgrade
@@ -321,7 +407,7 @@ sudo def upgrade
 ```
 
 ---
-### 3. Install app
+### 4. Install app
 Ubuntu (اوبنتو)
 ```
 sudo apt-get install <Package-name>
@@ -333,7 +419,19 @@ sudo def install <Package-name>
 ```
 
 ---
-### 2. Root
+### 5. Uninstall app
+Ubuntu (اوبنتو)
+```
+sudo apt-get remove <Package-name>
+```
+
+Fedora (فدورا)
+```
+sudo def remove <Package-name>
+```
+
+---
+### 6. Root
 Permanent root access (دسترسی دایمی روت)
 ```ruby
 sudo su -
