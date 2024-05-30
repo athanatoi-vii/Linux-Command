@@ -51,7 +51,7 @@
 6. root (ریشه)
 
 ---
-### [Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)]()
+### [Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)](#Fedora-Linux-web-terminal-ترمینال-تحت-وب-لینوکس-فدورا)
 1. terminal
 
 
