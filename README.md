@@ -24,12 +24,10 @@
 21. awk
 
 ---
-
 ### [Commend file bash](#file-bash-bash-فایل)
 1. Create file bash (bash ساخت فایل)
 
 ---
-
 ### [Commend for bash in fil](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
 1. Add Commentator (اضاف کردن مفسر)
 2. Create variable (ایجاد متغیر)
@@ -44,7 +42,6 @@
 11. read
 
 ---
-
 ### [Additional Command](#Additional-Command-دستورات-تکمیلی)
 1. Network (شبکه)
 2. update (اپدیت)
@@ -52,6 +49,9 @@
 4. install app (نصب برنامه)
 5. uninstall app (حذف برنامه)
 6. root (ریشه)
+
+---
+###[Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)](#Fedora-Linux-web-terminal -ترمینال-تحت-وب-لینوکس-فدور)
 
 #
 
@@ -523,6 +523,13 @@ Permanent root access (دسترسی دایمی روت)
 ```ruby
 sudo su -
 ```
+
+#
+
+# Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)
+A simulated terminal from Linux Fedora for practice (یک ترمینال شبیه سازی شده از لینوکس فدورا برای تمرین)
+
+[terminal](https://bellard.org/jslinux/vm.html?cpu=riscv64&url=fedora33-riscv.cfg&mem=256)
 
 #
 
