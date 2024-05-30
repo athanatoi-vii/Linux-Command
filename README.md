@@ -42,7 +42,7 @@
 11. read
 
 ---
-### [Additional Command (دستورات تکمیلی)](#Additional-Command-دستورات-تکمیلی)
+### [ Additional Command (دستورات تکمیلی) ]( #Additional-Command-دستورات-تکمیلی )
 1. Network (شبکه)
 2. update (اپدیت)
 3. upgrad (اپگرید)
