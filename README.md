@@ -28,7 +28,7 @@
 1. Create file bash (bash ساخت فایل)
 
 ---
-### [Commend for bash in fil](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
+### [Commend for bash in file](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
 1. Add Commentator (اضاف کردن مفسر)
 2. Create variable (ایجاد متغیر)
 3. Variable value (مقدار متغیر)
@@ -51,7 +51,9 @@
 6. root (ریشه)
 
 ---
-###[Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)](#Fedora-Linux-web-terminal -ترمینال-تحت-وب-لینوکس-فدور)
+### [Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)](#Fedora-Linux-web-terminal-ترمینال-تحت-وب-لینوکس-فدور)
+1. terminal
+
 
 #
 
@@ -297,6 +299,7 @@ Run the bash file (bash اجرای فایل)
 ./<file-name>.sh
 ```
 
+
 #
 
 # commend for bash in file (bash دستورات درون فایل)
@@ -452,6 +455,7 @@ Example (مثال)
 read a
 ```
 
+
 #
 
 # Additional Command (دستورات تکمیلی)
@@ -524,12 +528,15 @@ Permanent root access (دسترسی دایمی روت)
 sudo su -
 ```
 
+
 #
 
 # Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)
+
+### 1. terminal
 A simulated terminal from Linux Fedora for practice (یک ترمینال شبیه سازی شده از لینوکس فدورا برای تمرین)
 
-[terminal](https://bellard.org/jslinux/vm.html?cpu=riscv64&url=fedora33-riscv.cfg&mem=256)
+*[terminal](https://bellard.org/jslinux/vm.html?cpu=riscv64&url=fedora33-riscv.cfg&mem=256)*
 
 #
 
