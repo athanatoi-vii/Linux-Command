@@ -22,8 +22,14 @@
 19. tree
 20. grap
 21. awk
+
+---
+
 ### [Commend file bash](#file-bash-bash-فایل)
 1. Create file bash (bash ساخت فایل)
+
+---
+
 ### [Commend for bash in fil](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
 1. Add Commentator (اضاف کردن مفسر)
 2. Create variable (ایجاد متغیر)
@@ -36,6 +42,9 @@
 9. while
 10. do wihile
 11. read
+
+---
+
 ### [Additional Command](#Additional-Command-دستورات-تکمیلی)
 1. Network (شبکه)
 2. update (اپدیت)
@@ -443,7 +452,7 @@ Example (مثال)
 read a
 ```
 
----
+#
 
 # Additional Command (دستورات تکمیلی)
 
