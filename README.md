@@ -1,6 +1,6 @@
 # List (لیست)
 
-### [Commend linux](#linux-commend-دستورات-لینوکس)
+### [Commend linux (دستورات لینوکس)](#linux-commend-دستورات-لینوکس)
 1. ls
 2. cd
 3. clear
@@ -24,7 +24,7 @@
 21. awk
 
 ---
-### [Commend file bash](#file-bash-bash-فایل)
+### [Commend file bash (bash دستورات فایل)](#file-bash-bash-فایل)
 1. Create file bash (bash ساخت فایل)
 
 ---
@@ -42,7 +42,7 @@
 11. read
 
 ---
-### [Additional Command](#Additional-Command-دستورات-تکمیلی)
+### [Additional Command (دستورات تکمیلی)](#Additional-Command-دستورات-تکمیلی)
 1. Network (شبکه)
 2. update (اپدیت)
 3. upgrad (اپگرید)
@@ -51,7 +51,7 @@
 6. root (ریشه)
 
 ---
-### [Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)](#Fedora-Linux-web-terminal-ترمینال-تحت-وب-لینوکس-فدور)
+### [Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)]()
 1. terminal
 
 
