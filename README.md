@@ -24,7 +24,7 @@
 21. awk
 
 ---
-### [ file bash (bash فایل) ]( #file-bash-bash-فایل )
+### [ File bash (bash فایل) ]( #file-bash-bash-فایل )
 1. Create file bash (bash ساخت فایل)
 
 ---
