@@ -78,6 +78,11 @@ Back to the previous folder (برگشت به پوشه قبلی)
 cd ..
 ```
 
+Back to homework (برگشت به خانه کاری)
+```ruby
+cd .
+```
+
 * ```cd name-directory/name-directory``` Slash for addressing and spacing between folders (اسلش برای ادرس دهی و فاصله انداختن بین پوشه ها)
 
 ---
@@ -362,6 +367,8 @@ The order to execute the servant if the condition is correct (دستور اجر�
 ```ruby
 if ((<name-variable1> <control-character> <name-variable2>));then
   <body-commands>
+elseif ((<name-variable1> <control-character> <name-variable2>));then
+  <body-commands>
 fi
 ```
 
@@ -369,6 +376,8 @@ Example (مثال)
 ```ruby
 if ((a < b));then
   echo "$b"
+elseif ((a > b));then
+  echo "$a"
 fi
 ```
 
