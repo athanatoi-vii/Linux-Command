@@ -28,7 +28,7 @@
 1. Create file bash (bash ساخت فایل)
 
 ---
-### [Commend for bash in file](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
+### [Commend for bash in file (درون فایل bash دستورات برای)](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
 1. Add Commentator (اضاف کردن مفسر)
 2. Create variable (ایجاد متغیر)
 3. Variable value (مقدار متغیر)
