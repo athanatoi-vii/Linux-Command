@@ -1,6 +1,6 @@
 # List (لیست)
 
-### [Commend linux (دستورات لینوکس)](#linux-commend-دستورات-لینوکس)
+### [ Commend linux (دستورات لینوکس) ]( #linux-commend-دستورات-لینوکس )
 1. ls
 2. cd
 3. clear
@@ -24,11 +24,11 @@
 21. awk
 
 ---
-### [Commend file bash (bash دستورات فایل)](#file-bash-bash-فایل)
+### [ file bash (bash فایل) ]( #file-bash-bash-فایل )
 1. Create file bash (bash ساخت فایل)
 
 ---
-### [Commend in bash file (دستورات درون فایل bash)](#commend-in-bash-file-bash-دستورات-درون-فایل)
+### [ Commend in bash file (دستورات درون فایل bash) ]( #commend-in-bash-file-bash-دستورات-درون-فایل )
 1. Add Commentator (اضاف کردن مفسر)
 2. Create variable (ایجاد متغیر)
 3. Variable value (مقدار متغیر)
@@ -51,7 +51,7 @@
 6. root (ریشه)
 
 ---
-### [Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا)](#Fedora-Linux-web-terminal-ترمینال-تحت-وب-لینوکس-فدورا)
+### [ Fedora Linux web terminal (ترمینال تحت وب لینوکس فدورا) ]( #Fedora-Linux-web-terminal-ترمینال-تحت-وب-لینوکس-فدورا )
 1. terminal
 
 
