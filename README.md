@@ -28,7 +28,7 @@
 1. Create file bash (bash ساخت فایل)
 
 ---
-### [Commend for bash in file (درون فایل bash دستورات برای)](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
+### [Commend in bash file (دستورات درون فایل bash)](#commend-for-bash-in-file-bash-دستورات-درون-فایل)
 1. Add Commentator (اضاف کردن مفسر)
 2. Create variable (ایجاد متغیر)
 3. Variable value (مقدار متغیر)
@@ -302,7 +302,7 @@ Run the bash file (bash اجرای فایل)
 
 #
 
-# commend for bash in file (bash دستورات درون فایل)
+# commend in bash file (bash دستورات درون فایل)
 
 ### 1. Add Commentator (اضاف کردن مفسر)
 Add the bash interpreter to the file (به فایل bash اضافه کردن مفسر)
