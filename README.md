@@ -44,7 +44,7 @@
 5. uninstall app (حذف برنامه)
 6. root (ریشه)
 
----
+#
 
 # linux commend (دستورات لینوکس)
 
@@ -267,7 +267,7 @@ Processing the text file, including the execution of the command written in the 
 awk '{ <command> }' <filename>
 ```
 
----
+#
 
 # file bash (bash فایل)
 There are executable files in which the commands written in them are executed in the terminal (فایل هایی اجرایی هستن که دستورات نوشته شده درون انها در ترمینال اجرا میشوند)
@@ -288,7 +288,7 @@ Run the bash file (bash اجرای فایل)
 ./<file-name>.sh
 ```
 
----
+#
 
 # commend for bash in file (bash دستورات درون فایل)
 
@@ -514,4 +514,6 @@ Permanent root access (دسترسی دایمی روت)
 ```ruby
 sudo su -
 ```
+
+#
 
